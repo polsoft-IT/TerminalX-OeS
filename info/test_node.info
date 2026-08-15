@@ -1,0 +1,5 @@
+{
+  "node": "test_info",
+  "title": "Test Info Page",
+  "content": "This is a test INFO page for demonstrating the multi-source integration. It contains a description that will be extracted as the first sentence."
+}

@@ -1,0 +1,10 @@
+{
+  "name": "TerminalX",
+  "version": "2.5.0.01.02",
+  "enabled": true,
+  "debug": false,
+  "log_level": "INFO",
+  "max_history": 1000,
+  "prompt": "TerminalX> ",
+  "welcome_message": "2026 (c) polsoft.ITS (TM)  |  TerminalOS v2.5.0  |  Cross-platform  |  Sebastian Januchowski"
+}

@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "hook_mode": "monitor",
+  "hooks": [],
+  "log_level": "normal",
+  "max_hooks": 100
+}

@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "auto_isolate": false,
+  "isolation_level": "medium",
+  "max_sandboxed_processes": 10,
+  "cleanup_interval": 300
+}

@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "auto_scan": false,
+  "scan_interval": 30,
+  "max_devices": 20
+}

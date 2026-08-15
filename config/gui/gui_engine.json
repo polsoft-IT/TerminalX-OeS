@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "framework": "terminal",
+  "width": 1200,
+  "height": 800,
+  "theme": "dark",
+  "animations": true
+}

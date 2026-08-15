@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "hooks": [],
+  "max_hooks": 50,
+  "log_level": "normal"
+}

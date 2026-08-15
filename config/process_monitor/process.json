@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "monitor_all": false,
+  "monitor_pids": [],
+  "update_interval": 1.0,
+  "cpu_threshold": 80.0,
+  "memory_threshold": 80.0,
+  "io_threshold": 1000000
+}

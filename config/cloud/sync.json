@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "auto_sync": false,
+  "conflict_resolution": "local",
+  "sync_on_startup": false,
+  "sync_on_shutdown": false
+}

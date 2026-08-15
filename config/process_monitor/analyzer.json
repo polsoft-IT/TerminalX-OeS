@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "analyze_patterns": true,
+  "detect_anomalies": true,
+  "learning_enabled": false,
+  "update_interval": 5
+}

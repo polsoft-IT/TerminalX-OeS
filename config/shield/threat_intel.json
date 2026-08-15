@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "update_interval": 3600,
+  "sources": [],
+  "auto_block": false,
+  "threat_threshold": 0.7
+}

@@ -1,0 +1,16 @@
+{
+  "default_framework": "tkinter",
+  "available_frameworks": [
+    "tkinter",
+    "pygame",
+    "custom"
+  ],
+  "framework_settings": {
+    "tkinter": {
+      "enabled": true
+    },
+    "pygame": {
+      "enabled": false
+    }
+  }
+}

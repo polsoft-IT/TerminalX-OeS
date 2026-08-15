@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "auto_load": true,
+  "auto_verify": true,
+  "sandbox_enabled": true,
+  "strict_permissions": true,
+  "plugin_dir": "plugin/plugins",
+  "manifest_dir": "plugin/manifest"
+}

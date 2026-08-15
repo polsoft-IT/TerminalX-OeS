@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "monitor_traffic": true,
+  "monitor_connections": true,
+  "update_interval": 1.0,
+  "max_connections": 1000
+}

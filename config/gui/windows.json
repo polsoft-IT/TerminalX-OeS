@@ -1,0 +1,21 @@
+{
+  "default_theme": "dark",
+  "window_defaults": {
+    "width": 800,
+    "height": 600,
+    "resizable": true,
+    "decorated": true
+  },
+  "themes": {
+    "dark": {
+      "background": "#1e1e1e",
+      "foreground": "#ffffff",
+      "accent": "#007acc"
+    },
+    "light": {
+      "background": "#ffffff",
+      "foreground": "#000000",
+      "accent": "#007acc"
+    }
+  }
+}

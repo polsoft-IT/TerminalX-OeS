@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "default_policy": "allow",
+  "rules": [],
+  "log_blocked": true,
+  "log_allowed": false
+}

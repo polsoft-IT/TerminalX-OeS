@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "auto_load": true,
+  "module_dir": "modules",
+  "snapshot_dir": "snapshots",
+  "max_snapshots": 10,
+  "dependency_check": true
+}

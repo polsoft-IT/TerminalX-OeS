@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "monitor_patterns": true,
+  "detect_anomalies": true,
+  "alert_threshold": 0.8,
+  "learning_rate": 0.01,
+  "update_interval": 60
+}

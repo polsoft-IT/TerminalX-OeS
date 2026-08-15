@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "monitor_processes": true,
+  "monitor_syscalls": false,
+  "monitor_modules": true,
+  "update_interval": 1.0
+}

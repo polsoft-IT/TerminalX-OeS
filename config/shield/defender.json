@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "real_time_protection": true,
+  "scan_on_access": false,
+  "quarantine_enabled": true,
+  "update_signatures": true,
+  "scan_interval": 3600
+}

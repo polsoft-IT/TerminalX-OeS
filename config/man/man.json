@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "cache": {
+    "enabled": true,
+    "max_memory_size": 100,
+    "max_disk_size": 1000,
+    "ttl": 3600,
+    "policy": "lru"
+  },
+  "parser": {
+    "default_format": "md"
+  },
+  "viewer": {
+    "default_format": "ansi",
+    "terminal_width": 80,
+    "terminal_height": 24,
+    "colors_enabled": true
+  },
+  "load_external": false,
+  "man_path": "/usr/share/man"
+}

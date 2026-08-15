@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "trap_policy": "soft",
+  "traps": [],
+  "max_traps": 50
+}

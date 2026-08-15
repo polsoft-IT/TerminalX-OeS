@@ -1,0 +1,15 @@
+# TerminalX - Advanced Terminal System
+# Requirements file for virtual environment
+
+# Core dependencies
+aiohttp>=3.9.0
+psutil>=5.9.0
+pyyaml>=6.0
+colorama>=0.4.6
+geopy>=2.5.0
+
+# Optional dependencies for enhanced functionality
+# Uncomment if needed:
+# requests>=2.31.0
+# numpy>=1.24.0
+# matplotlib>=3.7.0

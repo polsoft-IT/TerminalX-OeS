@@ -1,0 +1,1606 @@
+2026-08-15 00:05:20,973 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 00:05:20,973 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 00:05:20,976 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 00:05:20,976 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 00:05:20,983 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 00:05:20,983 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 00:05:21,020 - TerminalX - INFO - Module count set to: 0
+2026-08-15 00:05:21,020 - TerminalX - INFO - Module count set to: 0
+2026-08-15 00:05:21,022 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 00:05:21,022 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 00:05:21,026 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 00:05:21,026 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 00:05:21,029 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 00:05:21,029 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 00:05:21,032 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 00:05:21,032 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 00:05:21,037 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 00:05:21,037 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 00:05:21,040 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 00:05:21,040 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 00:05:21,043 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 00:05:21,043 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 00:05:21,048 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 00:05:21,048 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 00:05:21,051 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 00:05:21,051 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 00:05:21,055 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 00:05:21,055 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 00:05:21,059 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 00:05:21,059 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 00:05:21,062 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 00:05:21,062 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 00:05:21,065 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 00:05:21,065 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 00:05:21,069 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 00:05:21,069 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 00:05:21,072 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 00:05:21,072 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 00:05:21,076 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 00:05:21,076 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 00:05:21,079 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 00:05:21,079 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 00:05:21,082 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 00:05:21,082 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 00:05:21,085 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 00:05:21,085 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 00:05:21,088 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 00:05:21,088 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 00:05:21,092 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 00:05:21,092 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 00:05:21,095 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 00:05:21,095 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 00:05:21,099 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 00:05:21,099 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 00:05:21,103 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 00:05:21,103 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 00:05:21,106 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 00:05:21,106 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 00:05:21,110 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 00:05:21,110 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 00:05:21,112 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 00:05:21,112 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 00:05:21,114 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 00:05:21,114 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 00:05:21,117 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 00:05:21,117 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 00:05:21,120 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 00:05:21,120 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 00:05:21,122 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 00:05:21,122 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 00:05:21,125 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 00:05:21,125 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 00:05:21,127 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 00:05:21,127 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 00:05:21,129 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 00:05:21,129 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 00:05:21,131 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 00:05:21,131 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 00:05:21,243 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 00:05:21,243 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 00:05:21,245 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 00:05:21,245 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 00:05:21,247 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 00:05:21,247 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 00:05:21,250 - TerminalX - INFO - Core Engine started
+2026-08-15 00:05:21,250 - TerminalX - INFO - Core Engine started
+2026-08-15 00:05:21,254 - TerminalX - INFO - TerminalX started
+2026-08-15 00:05:21,254 - TerminalX - INFO - TerminalX started
+2026-08-15 00:55:06,275 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 00:55:06,275 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 00:55:06,278 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 00:55:06,278 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 00:55:06,403 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 00:55:06,403 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 00:55:06,446 - TerminalX - INFO - Module count set to: 0
+2026-08-15 00:55:06,446 - TerminalX - INFO - Module count set to: 0
+2026-08-15 00:55:06,449 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 00:55:06,449 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 00:55:06,452 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 00:55:06,452 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 00:55:06,456 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 00:55:06,456 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 00:55:06,459 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 00:55:06,459 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 00:55:06,462 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 00:55:06,462 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 00:55:06,466 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 00:55:06,466 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 00:55:06,469 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 00:55:06,469 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 00:55:06,472 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 00:55:06,472 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 00:55:06,475 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 00:55:06,475 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 00:55:06,477 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 00:55:06,477 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 00:55:06,481 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 00:55:06,481 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 00:55:06,484 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 00:55:06,484 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 00:55:06,487 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 00:55:06,487 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 00:55:06,490 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 00:55:06,490 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 00:55:06,494 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 00:55:06,494 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 00:55:06,497 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 00:55:06,497 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 00:55:06,501 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 00:55:06,501 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 00:55:06,505 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 00:55:06,505 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 00:55:06,507 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 00:55:06,507 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 00:55:06,510 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 00:55:06,510 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 00:55:06,512 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 00:55:06,512 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 00:55:06,515 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 00:55:06,515 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 00:55:06,518 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 00:55:06,518 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 00:55:06,520 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 00:55:06,520 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 00:55:06,523 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 00:55:06,523 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 00:55:06,526 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 00:55:06,526 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 00:55:06,529 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 00:55:06,529 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 00:55:06,531 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 00:55:06,531 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 00:55:06,534 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 00:55:06,534 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 00:55:06,537 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 00:55:06,537 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 00:55:06,539 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 00:55:06,539 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 00:55:06,542 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 00:55:06,542 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 00:55:06,545 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 00:55:06,545 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 00:55:06,547 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 00:55:06,547 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 00:55:06,550 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 00:55:06,550 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 00:55:06,553 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 00:55:06,553 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 00:55:06,556 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 00:55:06,556 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 00:55:06,559 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 00:55:06,559 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 00:55:06,563 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 00:55:06,563 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 00:55:06,567 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 00:55:06,567 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 00:55:06,569 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 00:55:06,569 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 00:55:06,572 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 00:55:06,572 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 00:55:06,575 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 00:55:06,575 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 00:55:06,578 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 00:55:06,578 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 00:57:35,786 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 00:57:35,786 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 00:57:35,789 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 00:57:35,789 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 00:57:35,887 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 00:57:35,887 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 00:57:35,923 - TerminalX - INFO - Module count set to: 0
+2026-08-15 00:57:35,923 - TerminalX - INFO - Module count set to: 0
+2026-08-15 00:57:35,925 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 00:57:35,925 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 00:57:35,927 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 00:57:35,927 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 00:57:35,930 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 00:57:35,930 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 00:57:35,932 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 00:57:35,932 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 00:57:35,934 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 00:57:35,934 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 00:57:35,938 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 00:57:35,938 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 00:57:35,940 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 00:57:35,940 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 00:57:35,943 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 00:57:35,943 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 00:57:35,946 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 00:57:35,946 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 00:57:35,949 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 00:57:35,949 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 00:57:35,952 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 00:57:35,952 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 00:57:35,955 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 00:57:35,955 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 00:57:35,957 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 00:57:35,957 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 00:57:35,959 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 00:57:35,959 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 00:57:35,962 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 00:57:35,962 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 00:57:35,963 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 00:57:35,963 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 00:57:35,965 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 00:57:35,965 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 00:57:35,967 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 00:57:35,967 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 00:57:35,969 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 00:57:35,969 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 00:57:35,972 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 00:57:35,972 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 00:57:35,974 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 00:57:35,974 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 00:57:35,976 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 00:57:35,976 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 00:57:35,978 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 00:57:35,978 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 00:57:35,981 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 00:57:35,981 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 00:57:35,983 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 00:57:35,983 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 00:57:35,985 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 00:57:35,985 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 00:57:35,988 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 00:57:35,988 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 00:57:35,991 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 00:57:35,991 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 00:57:35,994 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 00:57:35,994 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 00:57:35,996 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 00:57:35,996 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 00:57:35,998 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 00:57:35,998 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 00:57:36,000 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 00:57:36,000 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 00:57:36,003 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 00:57:36,003 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 00:57:36,005 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 00:57:36,005 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 00:57:36,008 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 00:57:36,008 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 00:57:36,010 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 00:57:36,010 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 00:57:36,012 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 00:57:36,012 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 00:57:36,014 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 00:57:36,014 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 00:57:36,017 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 00:57:36,017 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 00:57:36,019 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 00:57:36,019 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 00:57:36,021 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 00:57:36,021 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 00:57:36,023 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 00:57:36,023 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 00:57:36,025 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 00:57:36,025 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 00:57:36,027 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 00:57:36,027 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 00:57:36,029 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 00:57:36,029 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 00:57:36,031 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 00:57:36,031 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 00:57:36,251 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 00:57:36,251 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 01:01:40,382 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 01:01:40,382 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 01:01:40,385 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 01:01:40,385 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 01:01:40,466 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 01:01:40,466 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 01:02:07,841 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 01:02:07,841 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 01:02:07,842 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 01:02:07,842 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 01:02:07,930 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 01:02:07,930 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 01:03:09,186 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 01:03:09,186 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 01:03:09,190 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 01:03:09,190 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 01:03:09,315 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 01:03:09,315 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 01:03:09,360 - TerminalX - INFO - Module count set to: 0
+2026-08-15 01:03:09,360 - TerminalX - INFO - Module count set to: 0
+2026-08-15 01:03:09,363 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 01:03:09,363 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 01:03:09,366 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 01:03:09,366 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 01:03:09,370 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 01:03:09,370 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 01:03:09,373 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 01:03:09,373 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 01:03:09,376 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 01:03:09,376 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 01:03:09,379 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 01:03:09,379 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 01:03:09,382 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 01:03:09,382 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 01:03:09,385 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 01:03:09,385 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 01:03:09,388 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 01:03:09,388 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 01:03:09,392 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 01:03:09,392 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 01:03:09,399 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 01:03:09,399 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 01:03:09,411 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 01:03:09,411 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 01:03:09,415 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 01:03:09,415 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 01:03:09,418 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 01:03:09,418 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 01:03:09,422 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 01:03:09,422 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 01:03:09,425 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 01:03:09,425 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 01:03:09,429 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 01:03:09,429 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 01:03:09,432 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 01:03:09,432 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 01:03:09,436 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 01:03:09,436 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 01:03:09,439 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 01:03:09,439 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 01:03:09,442 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 01:03:09,442 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 01:03:09,446 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 01:03:09,446 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 01:03:09,449 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 01:03:09,449 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 01:03:09,453 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 01:03:09,453 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 01:03:09,457 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 01:03:09,457 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 01:03:09,460 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 01:03:09,460 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 01:03:09,464 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 01:03:09,464 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 01:03:09,467 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 01:03:09,467 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 01:03:09,471 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 01:03:09,471 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 01:03:09,474 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 01:03:09,474 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 01:03:09,478 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 01:03:09,478 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 01:03:09,480 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 01:03:09,480 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 01:03:09,484 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 01:03:09,484 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 01:03:09,488 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 01:03:09,488 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 01:03:09,491 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 01:03:09,491 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 01:03:09,494 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 01:03:09,494 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 01:03:09,498 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 01:03:09,498 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 01:03:09,501 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 01:03:09,501 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 01:03:09,505 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 01:03:09,505 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 01:03:09,509 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 01:03:09,509 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 01:03:09,514 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 01:03:09,514 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 01:03:09,518 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 01:03:09,518 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 01:03:09,521 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 01:03:09,521 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 01:03:09,524 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 01:03:09,524 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 01:03:09,527 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 01:03:09,527 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 01:03:09,530 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 01:03:09,530 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 01:03:09,829 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 01:03:09,829 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 01:12:39,398 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 01:12:39,398 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 01:12:39,402 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 01:12:39,402 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 01:12:39,531 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 01:12:39,531 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 01:12:39,577 - TerminalX - INFO - Module count set to: 0
+2026-08-15 01:12:39,577 - TerminalX - INFO - Module count set to: 0
+2026-08-15 01:12:39,580 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 01:12:39,580 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 01:12:39,584 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 01:12:39,584 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 01:12:39,587 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 01:12:39,587 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 01:12:39,591 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 01:12:39,591 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 01:12:39,594 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 01:12:39,594 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 01:12:39,597 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 01:12:39,597 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 01:12:39,600 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 01:12:39,600 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 01:12:39,603 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 01:12:39,603 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 01:12:39,606 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 01:12:39,606 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 01:12:39,609 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 01:12:39,609 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 01:12:39,612 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 01:12:39,612 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 01:12:39,615 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 01:12:39,615 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 01:12:39,618 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 01:12:39,618 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 01:12:39,621 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 01:12:39,621 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 01:12:39,624 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 01:12:39,624 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 01:12:39,629 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 01:12:39,629 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 01:12:39,634 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 01:12:39,634 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 01:12:39,637 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 01:12:39,637 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 01:12:39,640 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 01:12:39,640 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 01:12:39,644 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 01:12:39,644 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 01:12:39,647 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 01:12:39,647 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 01:12:39,650 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 01:12:39,650 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 01:12:39,654 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 01:12:39,654 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 01:12:39,657 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 01:12:39,657 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 01:12:39,660 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 01:12:39,660 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 01:12:39,664 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 01:12:39,664 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 01:12:39,667 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 01:12:39,667 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 01:12:39,670 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 01:12:39,670 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 01:12:39,674 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 01:12:39,674 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 01:12:39,677 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 01:12:39,677 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 01:12:39,681 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 01:12:39,681 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 01:12:39,685 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 01:12:39,685 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 01:12:39,687 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 01:12:39,687 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 01:12:39,691 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 01:12:39,691 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 01:12:39,693 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 01:12:39,693 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 01:12:39,697 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 01:12:39,697 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 01:12:39,700 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 01:12:39,700 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 01:12:39,704 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 01:12:39,704 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 01:12:39,707 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 01:12:39,707 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 01:12:39,710 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 01:12:39,710 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 01:12:39,713 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 01:12:39,713 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 01:12:39,717 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 01:12:39,717 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 01:12:39,720 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 01:12:39,720 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 01:12:39,723 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 01:12:39,723 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 01:12:39,726 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 01:12:39,726 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 01:12:39,729 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 01:12:39,729 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 01:12:40,034 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 01:12:40,034 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 03:31:38,625 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 03:31:38,625 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 03:31:38,628 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 03:31:38,628 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 03:31:38,662 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 03:31:38,662 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 03:31:38,730 - TerminalX - INFO - Module count set to: 0
+2026-08-15 03:31:38,730 - TerminalX - INFO - Module count set to: 0
+2026-08-15 03:31:38,732 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 03:31:38,732 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 03:31:38,739 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 03:31:38,739 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 03:31:38,743 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 03:31:38,743 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 03:31:38,748 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 03:31:38,748 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 03:31:38,752 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 03:31:38,752 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 03:31:38,755 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 03:31:38,755 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 03:31:38,760 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 03:31:38,760 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 03:31:38,765 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 03:31:38,765 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 03:31:38,769 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 03:31:38,769 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 03:31:38,772 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 03:31:38,772 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 03:31:38,776 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 03:31:38,776 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 03:31:38,781 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 03:31:38,781 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 03:31:38,783 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 03:31:38,783 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 03:31:38,787 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 03:31:38,787 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 03:31:38,792 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 03:31:38,792 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 03:31:38,795 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 03:31:38,795 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 03:31:38,800 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 03:31:38,800 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 03:31:38,804 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 03:31:38,804 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 03:31:38,807 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 03:31:38,807 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 03:31:38,810 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 03:31:38,810 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 03:31:38,812 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 03:31:38,812 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 03:31:38,816 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 03:31:38,816 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 03:31:38,820 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 03:31:38,820 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 03:31:38,825 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 03:31:38,825 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 03:31:38,830 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 03:31:38,830 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 03:31:38,836 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 03:31:38,836 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 03:31:38,838 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 03:31:38,838 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 03:31:38,841 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 03:31:38,841 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 03:31:38,843 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 03:31:38,843 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 03:31:38,848 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 03:31:38,848 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 03:31:38,852 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 03:31:38,852 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 03:31:38,856 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 03:31:38,856 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 03:31:38,860 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 03:31:38,860 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 03:31:38,864 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 03:31:38,864 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 03:31:38,868 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 03:31:38,868 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 03:31:38,872 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 03:31:38,872 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 03:31:38,876 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 03:31:38,876 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 03:31:38,879 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 03:31:38,879 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 03:31:38,885 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 03:31:38,885 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 03:31:38,889 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 03:31:38,889 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 03:31:38,892 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 03:31:38,892 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 03:31:38,896 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 03:31:38,896 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 03:31:38,900 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 03:31:38,900 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 03:31:38,904 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 03:31:38,904 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 03:31:38,908 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 03:31:38,908 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 03:31:38,912 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 03:31:38,912 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 03:31:38,916 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 03:31:38,916 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 03:31:39,272 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 03:31:39,272 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 03:47:03,299 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 03:47:03,299 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 03:47:03,302 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 03:47:03,302 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 03:47:03,324 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 03:47:03,324 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 03:47:03,380 - TerminalX - INFO - Module count set to: 0
+2026-08-15 03:47:03,380 - TerminalX - INFO - Module count set to: 0
+2026-08-15 03:47:03,383 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 03:47:03,383 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 03:47:03,386 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 03:47:03,386 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 03:47:03,390 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 03:47:03,390 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 03:47:03,393 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 03:47:03,393 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 03:47:03,396 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 03:47:03,396 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 03:47:03,399 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 03:47:03,399 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 03:47:03,403 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 03:47:03,403 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 03:47:03,406 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 03:47:03,406 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 03:47:03,410 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 03:47:03,410 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 03:47:03,413 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 03:47:03,413 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 03:47:03,416 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 03:47:03,416 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 03:47:03,419 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 03:47:03,419 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 03:47:03,423 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 03:47:03,423 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 03:47:03,426 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 03:47:03,426 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 03:47:03,429 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 03:47:03,429 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 03:47:03,432 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 03:47:03,432 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 03:47:03,435 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 03:47:03,435 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 03:47:03,438 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 03:47:03,438 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 03:47:03,442 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 03:47:03,442 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 03:47:03,445 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 03:47:03,445 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 03:47:03,448 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 03:47:03,448 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 03:47:03,451 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 03:47:03,451 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 03:47:03,455 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 03:47:03,455 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 03:47:03,458 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 03:47:03,458 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 03:47:03,461 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 03:47:03,461 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 03:47:03,464 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 03:47:03,464 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 03:47:03,468 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 03:47:03,468 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 03:47:03,473 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 03:47:03,473 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 03:47:03,476 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 03:47:03,476 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 03:47:03,482 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 03:47:03,482 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 03:47:03,492 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 03:47:03,492 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 03:47:03,495 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 03:47:03,495 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 03:47:03,499 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 03:47:03,499 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 03:47:03,502 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 03:47:03,502 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 03:47:03,506 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 03:47:03,506 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 03:47:03,509 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 03:47:03,509 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 03:47:03,512 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 03:47:03,512 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 03:47:03,514 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 03:47:03,514 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 03:47:03,517 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 03:47:03,517 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 03:47:03,521 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 03:47:03,521 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 03:47:03,524 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 03:47:03,524 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 03:47:03,527 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 03:47:03,527 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 03:47:03,530 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 03:47:03,530 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 03:47:03,533 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 03:47:03,533 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 03:47:03,537 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 03:47:03,537 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 03:47:03,541 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 03:47:03,541 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 03:47:03,544 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 03:47:03,544 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 03:47:03,830 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 03:47:03,830 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 03:47:04,002 - TerminalX - INFO - Stopping TerminalX...
+2026-08-15 03:47:04,002 - TerminalX - INFO - Stopping TerminalX...
+2026-08-15 03:47:04,057 - TerminalX - INFO - Stopping Core Engine...
+2026-08-15 03:47:04,057 - TerminalX - INFO - Stopping Core Engine...
+2026-08-15 03:47:04,060 - TerminalX - INFO - Core Engine stopped
+2026-08-15 03:47:04,060 - TerminalX - INFO - Core Engine stopped
+2026-08-15 03:47:04,062 - TerminalX - INFO - TerminalX stopped
+2026-08-15 03:47:04,062 - TerminalX - INFO - TerminalX stopped
+2026-08-15 03:52:40,536 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 03:52:40,536 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 03:52:40,541 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 03:52:40,541 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 03:52:40,565 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 03:52:40,565 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 03:52:40,617 - TerminalX - INFO - Module count set to: 0
+2026-08-15 03:52:40,617 - TerminalX - INFO - Module count set to: 0
+2026-08-15 03:52:40,620 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 03:52:40,620 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 03:52:40,623 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 03:52:40,623 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 03:52:40,626 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 03:52:40,626 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 03:52:40,630 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 03:52:40,630 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 03:52:40,633 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 03:52:40,633 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 03:52:40,636 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 03:52:40,636 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 03:52:40,640 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 03:52:40,640 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 03:52:40,643 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 03:52:40,643 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 03:52:40,646 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 03:52:40,646 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 03:52:40,649 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 03:52:40,649 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 03:52:40,652 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 03:52:40,652 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 03:52:40,656 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 03:52:40,656 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 03:52:40,659 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 03:52:40,659 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 03:52:40,662 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 03:52:40,662 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 03:52:40,665 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 03:52:40,665 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 03:52:40,669 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 03:52:40,669 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 03:52:40,673 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 03:52:40,673 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 03:52:40,676 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 03:52:40,676 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 03:52:40,681 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 03:52:40,681 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 03:52:40,685 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 03:52:40,685 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 03:52:40,688 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 03:52:40,688 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 03:52:40,691 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 03:52:40,691 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 03:52:40,694 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 03:52:40,694 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 03:52:40,699 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 03:52:40,699 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 03:52:40,702 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 03:52:40,702 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 03:52:40,706 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 03:52:40,706 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 03:52:40,709 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 03:52:40,709 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 03:52:40,712 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 03:52:40,712 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 03:52:40,716 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 03:52:40,716 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 03:52:40,719 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 03:52:40,719 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 03:52:40,723 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 03:52:40,723 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 03:52:40,724 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 03:52:40,724 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 03:52:40,727 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 03:52:40,727 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 03:52:40,731 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 03:52:40,731 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 03:52:40,734 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 03:52:40,734 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 03:52:40,736 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 03:52:40,736 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 03:52:40,740 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 03:52:40,740 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 03:52:40,744 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 03:52:40,744 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 03:52:40,747 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 03:52:40,747 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 03:52:40,751 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 03:52:40,751 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 03:52:40,754 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 03:52:40,754 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 03:52:40,758 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 03:52:40,758 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 03:52:40,761 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 03:52:40,761 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 03:52:40,765 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 03:52:40,765 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 03:52:40,767 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 03:52:40,767 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 03:52:40,771 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 03:52:40,771 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 03:52:40,774 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 03:52:40,774 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 03:52:41,159 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 03:52:41,159 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:04:53,563 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:04:53,563 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:04:53,566 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:04:53,566 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:04:53,585 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:04:53,585 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:04:53,634 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:04:53,634 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:04:53,636 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:04:53,636 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:04:53,640 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:04:53,640 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:04:53,643 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:04:53,643 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:04:53,646 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:04:53,646 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:04:53,651 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:04:53,651 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:04:53,654 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:04:53,654 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:04:53,657 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:04:53,657 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:04:53,660 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:04:53,660 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:04:53,668 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:04:53,668 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:04:53,674 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:04:53,674 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:04:53,677 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:04:53,677 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:04:53,684 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:04:53,684 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:04:53,689 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:04:53,689 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:04:53,693 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:04:53,693 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:04:53,697 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:04:53,697 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:04:53,700 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:04:53,700 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:04:53,704 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:04:53,704 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:04:53,707 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:04:53,707 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:04:53,711 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:04:53,711 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:04:53,714 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:04:53,714 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:04:53,717 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:04:53,717 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:04:53,719 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:04:53,719 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:04:53,722 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:04:53,722 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:04:53,725 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:04:53,725 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:04:53,728 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:04:53,728 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:04:53,730 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:04:53,730 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:04:53,733 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:04:53,733 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:04:53,736 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:04:53,736 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:04:53,739 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:04:53,739 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:04:53,741 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:04:53,741 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:04:53,744 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:04:53,744 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:04:53,748 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:04:53,748 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:04:53,750 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:04:53,750 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:04:53,754 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:04:53,754 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:04:53,757 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:04:53,757 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:04:53,760 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:04:53,760 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:04:53,762 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:04:53,762 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:04:53,765 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:04:53,765 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:04:53,768 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:04:53,768 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:04:53,770 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:04:53,770 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:04:53,773 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:04:53,773 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:04:53,776 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:04:53,776 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:04:53,780 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:04:53,780 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:04:53,783 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:04:53,783 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:04:53,785 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:04:53,785 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:04:53,788 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:04:53,788 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:04:53,791 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:04:53,791 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:04:54,097 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:04:54,097 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:04:54,271 - TerminalX - INFO - Stopping TerminalX...
+2026-08-15 04:04:54,271 - TerminalX - INFO - Stopping TerminalX...
+2026-08-15 04:04:54,324 - TerminalX - INFO - Stopping Core Engine...
+2026-08-15 04:04:54,324 - TerminalX - INFO - Stopping Core Engine...
+2026-08-15 04:04:54,325 - TerminalX - INFO - Core Engine stopped
+2026-08-15 04:04:54,325 - TerminalX - INFO - Core Engine stopped
+2026-08-15 04:04:54,326 - TerminalX - INFO - TerminalX stopped
+2026-08-15 04:04:54,326 - TerminalX - INFO - TerminalX stopped
+2026-08-15 04:14:27,833 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:14:27,833 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:14:27,837 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:14:27,837 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:14:27,857 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:14:27,857 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:14:27,909 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:14:27,909 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:14:27,910 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:14:27,910 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:14:27,912 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:14:27,912 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:14:27,914 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:14:27,914 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:14:27,916 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:14:27,916 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:14:27,918 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:14:27,918 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:14:27,919 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:14:27,919 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:14:27,921 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:14:27,921 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:14:27,923 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:14:27,923 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:14:27,925 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:14:27,925 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:14:27,926 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:14:27,926 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:14:27,928 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:14:27,928 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:14:27,930 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:14:27,930 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:14:27,933 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:14:27,933 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:14:27,935 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:14:27,935 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:14:27,937 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:14:27,937 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:14:27,939 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:14:27,939 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:14:27,941 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:14:27,941 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:14:27,943 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:14:27,943 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:14:27,945 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:14:27,945 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:14:27,946 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:14:27,946 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:14:27,948 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:14:27,948 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:14:27,950 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:14:27,950 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:14:27,951 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:14:27,951 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:14:27,953 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:14:27,953 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:14:27,956 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:14:27,956 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:14:27,958 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:14:27,958 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:14:27,961 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:14:27,961 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:14:27,965 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:14:27,965 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:14:27,968 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:14:27,968 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:14:27,971 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:14:27,971 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:14:27,974 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:14:27,974 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:14:27,977 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:14:27,977 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:14:27,980 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:14:27,980 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:14:27,983 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:14:27,983 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:14:27,989 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:14:27,989 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:14:27,993 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:14:27,993 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:14:27,997 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:14:27,997 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:14:28,003 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:14:28,003 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:14:28,005 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:14:28,005 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:14:28,009 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:14:28,009 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:14:28,014 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:14:28,014 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:14:28,023 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:14:28,023 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:14:28,029 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:14:28,029 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:14:28,031 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:14:28,031 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:14:28,034 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:14:28,034 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:14:28,038 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:14:28,038 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:14:28,046 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:14:28,046 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:14:28,287 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:14:28,287 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:18:19,723 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:18:19,723 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:18:19,730 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:18:19,730 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:18:19,792 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:18:19,792 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:18:19,864 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:18:19,864 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:18:19,867 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:18:19,867 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:18:19,874 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:18:19,874 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:18:19,887 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:18:19,887 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:18:19,896 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:18:19,896 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:18:19,903 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:18:19,903 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:18:19,912 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:18:19,912 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:18:19,918 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:18:19,918 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:18:19,928 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:18:19,928 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:18:19,934 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:18:19,934 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:18:19,941 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:18:19,941 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:18:19,946 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:18:19,946 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:18:19,950 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:18:19,950 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:18:19,954 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:18:19,954 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:18:19,962 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:18:19,962 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:18:19,966 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:18:19,966 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:18:19,969 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:18:19,969 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:18:19,973 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:18:19,973 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:18:19,976 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:18:19,976 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:18:19,980 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:18:19,980 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:18:19,983 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:18:19,983 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:18:19,986 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:18:19,986 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:18:19,989 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:18:19,989 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:18:19,992 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:18:19,992 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:18:19,995 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:18:19,995 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:18:19,998 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:18:19,998 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:18:20,001 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:18:20,001 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:18:20,025 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:18:20,025 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:18:20,031 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:18:20,031 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:18:20,035 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:18:20,035 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:18:20,040 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:18:20,040 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:18:20,044 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:18:20,044 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:18:20,051 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:18:20,051 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:18:20,057 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:18:20,057 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:18:20,064 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:18:20,064 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:18:20,069 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:18:20,069 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:18:20,074 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:18:20,074 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:18:20,077 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:18:20,077 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:18:20,087 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:18:20,087 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:18:20,096 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:18:20,096 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:18:20,117 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:18:20,117 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:18:20,128 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:18:20,128 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:18:20,135 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:18:20,135 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:18:20,153 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:18:20,153 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:18:20,165 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:18:20,165 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:18:20,194 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:18:20,194 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:18:20,201 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:18:20,201 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:18:20,206 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:18:20,206 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:18:21,189 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:18:21,189 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:18:21,981 - TerminalX - INFO - Stopping TerminalX...
+2026-08-15 04:18:21,981 - TerminalX - INFO - Stopping TerminalX...
+2026-08-15 04:18:22,039 - TerminalX - INFO - Stopping Core Engine...
+2026-08-15 04:18:22,039 - TerminalX - INFO - Stopping Core Engine...
+2026-08-15 04:18:22,044 - TerminalX - INFO - Core Engine stopped
+2026-08-15 04:18:22,044 - TerminalX - INFO - Core Engine stopped
+2026-08-15 04:18:22,047 - TerminalX - INFO - TerminalX stopped
+2026-08-15 04:18:22,047 - TerminalX - INFO - TerminalX stopped
+2026-08-15 04:20:27,749 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:20:27,749 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:20:27,752 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:20:27,752 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:20:27,806 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:20:27,806 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:20:27,826 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:20:27,826 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:20:27,827 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:20:27,827 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:20:27,829 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:20:27,829 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:20:27,830 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:20:27,830 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:20:27,832 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:20:27,832 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:20:27,834 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:20:27,834 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:20:27,836 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:20:27,836 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:20:27,837 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:20:27,837 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:20:27,839 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:20:27,839 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:20:27,840 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:20:27,840 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:20:27,842 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:20:27,842 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:20:27,843 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:20:27,843 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:20:27,844 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:20:27,844 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:20:27,846 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:20:27,846 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:20:27,847 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:20:27,847 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:20:27,849 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:20:27,849 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:20:27,850 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:20:27,850 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:20:27,852 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:20:27,852 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:20:27,853 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:20:27,853 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:20:27,854 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:20:27,854 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:20:27,855 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:20:27,855 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:20:27,857 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:20:27,857 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:20:27,858 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:20:27,858 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:20:27,860 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:20:27,860 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:20:27,861 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:20:27,861 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:20:27,862 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:20:27,862 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:20:27,864 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:20:27,864 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:20:27,865 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:20:27,865 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:20:27,866 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:20:27,866 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:20:27,867 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:20:27,867 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:20:27,868 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:20:27,868 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:20:27,869 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:20:27,869 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:20:27,870 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:20:27,870 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:20:27,872 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:20:27,872 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:20:27,873 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:20:27,873 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:20:27,875 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:20:27,875 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:20:27,876 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:20:27,876 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:20:27,879 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:20:27,879 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:20:27,880 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:20:27,880 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:20:27,882 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:20:27,882 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:20:27,883 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:20:27,883 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:20:27,885 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:20:27,885 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:20:27,887 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:20:27,887 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:20:27,888 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:20:27,888 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:20:27,890 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:20:27,890 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:20:27,891 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:20:27,891 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:20:27,893 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:20:27,893 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:20:27,894 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:20:27,894 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:20:27,966 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:20:27,966 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:20:27,968 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 04:20:27,968 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 04:20:27,970 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 04:20:27,970 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 04:20:27,973 - TerminalX - INFO - Core Engine started
+2026-08-15 04:20:27,973 - TerminalX - INFO - Core Engine started
+2026-08-15 04:20:27,979 - TerminalX - INFO - TerminalX started
+2026-08-15 04:20:27,979 - TerminalX - INFO - TerminalX started
+2026-08-15 04:28:28,609 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:28:28,609 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 04:28:28,621 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:28:28,621 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 04:28:28,653 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:28:28,653 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 04:28:28,791 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:28:28,791 - TerminalX - INFO - Module count set to: 0
+2026-08-15 04:28:28,802 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:28:28,802 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 04:28:28,815 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:28:28,815 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 04:28:28,825 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:28:28,825 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 04:28:28,836 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:28:28,836 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 04:28:28,843 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:28:28,843 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 04:28:28,850 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:28:28,850 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 04:28:28,858 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:28:28,858 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 04:28:28,865 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:28:28,865 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 04:28:28,873 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:28:28,873 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 04:28:28,879 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:28:28,879 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 04:28:28,890 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:28:28,890 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 04:28:28,894 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:28:28,894 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 04:28:28,901 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:28:28,901 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 04:28:28,906 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:28:28,906 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 04:28:28,911 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:28:28,911 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 04:28:28,916 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:28:28,916 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 04:28:28,922 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:28:28,922 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 04:28:28,926 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:28:28,926 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 04:28:28,930 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:28:28,930 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 04:28:28,935 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:28:28,935 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 04:28:28,938 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:28:28,938 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 04:28:28,943 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:28:28,943 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 04:28:28,951 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:28:28,951 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 04:28:28,956 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:28:28,956 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 04:28:28,960 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:28:28,960 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 04:28:28,967 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:28:28,967 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 04:28:28,974 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:28:28,974 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 04:28:28,980 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:28:28,980 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 04:28:28,987 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:28:28,987 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 04:28:28,991 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:28:28,991 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 04:28:28,994 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:28:28,994 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 04:28:29,001 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:28:29,001 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 04:28:29,005 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:28:29,005 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 04:28:29,009 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:28:29,009 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 04:28:29,014 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:28:29,014 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 04:28:29,021 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:28:29,021 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 04:28:29,026 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:28:29,026 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 04:28:29,031 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:28:29,031 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 04:28:29,036 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:28:29,036 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 04:28:29,040 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:28:29,040 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 04:28:29,044 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:28:29,044 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 04:28:29,051 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:28:29,051 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 04:28:29,056 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:28:29,056 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 04:28:29,061 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:28:29,061 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 04:28:29,065 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:28:29,065 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 04:28:29,071 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:28:29,071 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 04:28:29,076 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:28:29,076 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 04:28:29,653 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:28:29,653 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 04:28:29,656 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 04:28:29,656 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 04:28:29,658 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 04:28:29,658 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 04:28:29,664 - TerminalX - INFO - Core Engine started
+2026-08-15 04:28:29,664 - TerminalX - INFO - Core Engine started
+2026-08-15 04:28:29,678 - TerminalX - INFO - TerminalX started
+2026-08-15 04:28:29,678 - TerminalX - INFO - TerminalX started
+2026-08-15 05:10:55,718 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 05:10:55,718 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 05:10:55,723 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 05:10:55,723 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 05:10:55,742 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 05:10:55,742 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 05:10:55,803 - TerminalX - INFO - Module count set to: 0
+2026-08-15 05:10:55,803 - TerminalX - INFO - Module count set to: 0
+2026-08-15 05:10:55,806 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 05:10:55,806 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 05:10:55,821 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 05:10:55,821 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 05:10:55,831 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 05:10:55,831 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 05:10:55,835 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 05:10:55,835 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 05:10:55,839 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 05:10:55,839 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 05:10:55,856 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 05:10:55,856 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 05:10:55,871 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 05:10:55,871 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 05:10:55,885 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 05:10:55,885 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 05:10:55,899 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 05:10:55,899 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 05:10:55,903 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 05:10:55,903 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 05:10:55,913 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 05:10:55,913 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 05:10:55,918 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 05:10:55,918 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 05:10:55,922 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 05:10:55,922 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 05:10:55,938 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 05:10:55,938 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 05:10:55,951 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 05:10:55,951 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 05:10:55,955 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 05:10:55,955 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 05:10:55,979 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 05:10:55,979 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 05:10:56,000 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 05:10:56,000 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 05:10:56,005 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 05:10:56,005 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 05:10:56,015 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 05:10:56,015 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 05:10:56,022 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 05:10:56,022 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 05:10:56,033 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 05:10:56,033 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 05:10:56,038 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 05:10:56,038 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 05:10:56,047 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 05:10:56,047 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 05:10:56,051 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 05:10:56,051 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 05:10:56,056 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 05:10:56,056 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 05:10:56,068 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 05:10:56,068 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 05:10:56,081 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 05:10:56,081 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 05:10:56,084 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 05:10:56,084 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 05:10:56,089 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 05:10:56,089 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 05:10:56,099 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 05:10:56,099 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 05:10:56,104 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 05:10:56,104 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 05:10:56,119 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 05:10:56,119 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 05:10:56,131 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 05:10:56,131 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 05:10:56,139 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 05:10:56,139 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 05:10:56,149 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 05:10:56,149 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 05:10:56,160 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 05:10:56,160 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 05:10:56,173 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 05:10:56,173 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 05:10:56,190 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 05:10:56,190 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 05:10:56,199 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 05:10:56,199 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 05:10:56,203 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 05:10:56,203 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 05:10:56,215 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 05:10:56,215 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 05:10:56,219 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 05:10:56,219 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 05:10:56,225 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 05:10:56,225 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 05:10:56,232 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 05:10:56,232 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 05:10:56,238 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 05:10:56,238 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 05:10:56,252 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 05:10:56,252 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 05:10:56,668 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 05:10:56,668 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 05:10:56,679 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 05:10:56,679 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 05:10:56,706 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 05:10:56,706 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 05:10:56,720 - TerminalX - INFO - Core Engine started
+2026-08-15 05:10:56,720 - TerminalX - INFO - Core Engine started
+2026-08-15 05:10:56,730 - TerminalX - INFO - TerminalX started
+2026-08-15 05:10:56,730 - TerminalX - INFO - TerminalX started
+2026-08-15 06:16:24,905 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 06:16:24,905 - TerminalX - INFO - Initializing TerminalX...
+2026-08-15 06:16:24,907 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 06:16:24,907 - TerminalX - INFO - Initializing Core Engine...
+2026-08-15 06:16:24,961 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 06:16:24,961 - TerminalX - INFO - Core Engine initialized successfully
+2026-08-15 06:16:24,982 - TerminalX - INFO - Module count set to: 0
+2026-08-15 06:16:24,982 - TerminalX - INFO - Module count set to: 0
+2026-08-15 06:16:24,983 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 06:16:24,983 - TerminalX - INFO - Plugin count set to: 0
+2026-08-15 06:16:24,985 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 06:16:24,985 - TerminalX - INFO - Subsystem registered: multitask_engine
+2026-08-15 06:16:24,987 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 06:16:24,987 - TerminalX - INFO - Subsystem registered: emoji_library
+2026-08-15 06:16:24,988 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 06:16:24,988 - TerminalX - INFO - Subsystem registered: unicode_library
+2026-08-15 06:16:24,990 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 06:16:24,990 - TerminalX - INFO - Subsystem registered: figlet_engine
+2026-08-15 06:16:24,991 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 06:16:24,991 - TerminalX - INFO - Subsystem registered: ansi_colors_engine
+2026-08-15 06:16:24,993 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 06:16:24,993 - TerminalX - INFO - Subsystem registered: animations_engine
+2026-08-15 06:16:24,994 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 06:16:24,994 - TerminalX - INFO - Subsystem registered: gui_widgets_library
+2026-08-15 06:16:24,996 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 06:16:24,996 - TerminalX - INFO - Subsystem registered: ai_core
+2026-08-15 06:16:24,997 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 06:16:24,997 - TerminalX - INFO - Subsystem registered: ai_analyzer
+2026-08-15 06:16:24,999 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 06:16:24,999 - TerminalX - INFO - Subsystem registered: ai_sentinel
+2026-08-15 06:16:25,001 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 06:16:25,001 - TerminalX - INFO - Subsystem registered: ai_plugins
+2026-08-15 06:16:25,003 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 06:16:25,003 - TerminalX - INFO - Subsystem registered: gui_engine
+2026-08-15 06:16:25,005 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 06:16:25,005 - TerminalX - INFO - Subsystem registered: network_core
+2026-08-15 06:16:25,007 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 06:16:25,007 - TerminalX - INFO - Subsystem registered: kernel_monitor
+2026-08-15 06:16:25,009 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 06:16:25,009 - TerminalX - INFO - Subsystem registered: kernel_events
+2026-08-15 06:16:25,012 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 06:16:25,012 - TerminalX - INFO - Subsystem registered: kernel_hooks
+2026-08-15 06:16:25,014 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 06:16:25,014 - TerminalX - INFO - Subsystem registered: kernel_traps
+2026-08-15 06:16:25,016 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 06:16:25,016 - TerminalX - INFO - Subsystem registered: defender
+2026-08-15 06:16:25,018 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 06:16:25,018 - TerminalX - INFO - Subsystem registered: firewall
+2026-08-15 06:16:25,019 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 06:16:25,019 - TerminalX - INFO - Subsystem registered: sandbox
+2026-08-15 06:16:25,020 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 06:16:25,020 - TerminalX - INFO - Subsystem registered: threat_intel
+2026-08-15 06:16:25,021 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 06:16:25,021 - TerminalX - INFO - Subsystem registered: metadata_module
+2026-08-15 06:16:25,022 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 06:16:25,022 - TerminalX - INFO - Subsystem registered: build_module
+2026-08-15 06:16:25,024 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 06:16:25,024 - TerminalX - INFO - Subsystem registered: version_module
+2026-08-15 06:16:25,026 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 06:16:25,026 - TerminalX - INFO - Subsystem registered: report_engine
+2026-08-15 06:16:25,027 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 06:16:25,027 - TerminalX - INFO - Subsystem registered: kernel_hooks_engine
+2026-08-15 06:16:25,029 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 06:16:25,029 - TerminalX - INFO - Subsystem registered: process_monitor_engine
+2026-08-15 06:16:25,031 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 06:16:25,031 - TerminalX - INFO - Subsystem registered: advanced_shield
+2026-08-15 06:16:25,033 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 06:16:25,033 - TerminalX - INFO - Subsystem registered: module_manager
+2026-08-15 06:16:25,035 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 06:16:25,035 - TerminalX - INFO - Subsystem registered: module_loader
+2026-08-15 06:16:25,037 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 06:16:25,037 - TerminalX - INFO - Subsystem registered: config_manager
+2026-08-15 06:16:25,038 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 06:16:25,038 - TerminalX - INFO - Subsystem registered: file_manager
+2026-08-15 06:16:25,039 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 06:16:25,039 - TerminalX - INFO - Subsystem registered: debugger
+2026-08-15 06:16:25,040 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 06:16:25,040 - TerminalX - INFO - Subsystem registered: dependency_resolver
+2026-08-15 06:16:25,042 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 06:16:25,042 - TerminalX - INFO - Subsystem registered: encryption
+2026-08-15 06:16:25,043 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 06:16:25,043 - TerminalX - INFO - Subsystem registered: hot_reload
+2026-08-15 06:16:25,045 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 06:16:25,045 - TerminalX - INFO - Subsystem registered: clipboard_manager
+2026-08-15 06:16:25,046 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 06:16:25,046 - TerminalX - INFO - Subsystem registered: backup_system
+2026-08-15 06:16:25,048 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 06:16:25,048 - TerminalX - INFO - Subsystem registered: alias_engine
+2026-08-15 06:16:25,050 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 06:16:25,050 - TerminalX - INFO - Subsystem registered: plugin_manager
+2026-08-15 06:16:25,051 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 06:16:25,051 - TerminalX - INFO - Subsystem registered: geo_engine
+2026-08-15 06:16:25,053 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 06:16:25,053 - TerminalX - INFO - Subsystem registered: man_engine
+2026-08-15 06:16:25,054 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 06:16:25,054 - TerminalX - INFO - Subsystem registered: cache_engine
+2026-08-15 06:16:25,055 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 06:16:25,055 - TerminalX - INFO - Subsystem registered: cloud_engine
+2026-08-15 06:16:25,056 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 06:16:25,056 - TerminalX - INFO - Subsystem registered: notification_system
+2026-08-15 06:16:25,058 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 06:16:25,058 - TerminalX - INFO - Subsystem registered: alert_module
+2026-08-15 06:16:25,145 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 06:16:25,145 - TerminalX - INFO - TerminalX initialized successfully
+2026-08-15 06:16:25,146 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 06:16:25,146 - TerminalX - INFO - Starting TerminalX...
+2026-08-15 06:16:25,147 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 06:16:25,147 - TerminalX - INFO - Starting Core Engine...
+2026-08-15 06:16:25,149 - TerminalX - INFO - Core Engine started
+2026-08-15 06:16:25,149 - TerminalX - INFO - Core Engine started
+2026-08-15 06:16:25,150 - TerminalX - INFO - TerminalX started
+2026-08-15 06:16:25,150 - TerminalX - INFO - TerminalX started
+2026-08-15 06:18:09,706 - TerminalX - INFO - Stopping TerminalX...
+2026-08-15 06:18:09,706 - TerminalX - INFO - Stopping TerminalX...
+2026-08-15 06:18:09,759 - TerminalX - INFO - Stopping Core Engine...
+2026-08-15 06:18:09,759 - TerminalX - INFO - Stopping Core Engine...
+2026-08-15 06:18:09,761 - TerminalX - INFO - Core Engine stopped
+2026-08-15 06:18:09,761 - TerminalX - INFO - Core Engine stopped
+2026-08-15 06:18:09,762 - TerminalX - INFO - TerminalX stopped
+2026-08-15 06:18:09,762 - TerminalX - INFO - TerminalX stopped

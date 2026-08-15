@@ -1,0 +1,59 @@
+{
+  "name": "ai-detector",
+  "version": "2.0-ULTRA",
+  "author": "Sebastian Januchowski",
+  "company": "polsoft.ITS™ Dev",
+  "description": "Advanced AI-based anomaly detection for connections, files, processes, and geolocation events with machine learning, behavioral analysis, and real-time threat detection.",
+  "entry": "main.py",
+  "permissions": {
+    "tag": false,
+    "meta": false,
+    "rule": false,
+    "file": true,
+    "ai": true,
+    "overlay": false,
+    "watch": false,
+    "sync": false,
+    "network": true,
+    "system": true
+  },
+  "hooks": [
+    "connection.pre_analyze",
+    "connection.post_analyze",
+    "file.pre_scan",
+    "file.post_scan",
+    "process.pre_monitor",
+    "process.post_monitor",
+    "geolocation.pre_lookup",
+    "geolocation.post_lookup"
+  ],
+  "events": [
+    "on_connection_established",
+    "on_file_created",
+    "on_process_started",
+    "on_geolocation_changed",
+    "on_threat_detected",
+    "on_anomaly_found"
+  ],
+  "dependencies": [],
+  "compatibility": {
+    "min_version": "2.5.0",
+    "max_version": "3.0.0"
+  },
+  "config": {
+    "high_risk_threshold": 70.0,
+    "medium_risk_threshold": 30.0,
+    "enable_behavioral_analysis": true,
+    "enable_historical_analysis": true,
+    "enable_ml_detection": true,
+    "alert_on_critical": true
+  },
+  "api_methods": [
+    "process",
+    "get_stats",
+    "get_config",
+    "set_config",
+    "diagnose",
+    "auto_fix"
+  ]
+}

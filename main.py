@@ -31,6 +31,71 @@
 import asyncio
 import sys
 from pathlib import Path
+from typing import Dict, Any
+
+
+def _ensure_dependencies():
+    """Auto-install missing project dependencies into the running interpreter.
+
+    Prevents ModuleNotFoundError crashes (e.g. aiohttp, psutil) regardless of
+    which Python/venv launches this file. Reads requirements.txt from the
+    project root and pip-installs only the packages that fail to import.
+    """
+    import importlib
+    import subprocess
+    from pathlib import Path as _Path
+
+    # map: pip package name -> import name (where they differ)
+    import_names = {"pyyaml": "yaml", "pillow": "PIL"}
+
+    req_file = _Path(__file__).parent / "requirements.txt"
+    wanted = {}
+    if req_file.exists():
+        for line in req_file.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            pkg = line.split(">=")[0].split("==")[0].strip()
+            wanted[pkg] = line
+
+    # also try importing required-but-not-in-requirements modules
+    extra_imports = ["yaml", "PIL"]
+
+    missing = []
+    for pkg, spec_line in wanted.items():
+        import_name = import_names.get(pkg, pkg.replace("-", "_"))
+        try:
+            importlib.import_module(import_name)
+        except ImportError:
+            missing.append(spec_line)
+
+    for name in extra_imports:
+        try:
+            importlib.import_module(name)
+        except ImportError:
+            if name == "yaml":
+                missing.append("pyyaml>=6.0")
+            elif name == "PIL":
+                missing.append("pillow>=10.0.0")
+
+    if not missing:
+        return
+
+    print(f"[*] Installing missing dependencies into {sys.executable}:")
+    print("    " + ", ".join(m.split(">=", 1)[0] for m in missing))
+    try:
+        subprocess.check_call(
+            [sys.executable, "-m", "pip", "install", "--quiet", *missing]
+        )
+        print("[*] Dependencies installed. Please restart the application.")
+    except Exception as e:
+        print(f"[!] Could not auto-install dependencies: {e}")
+        print("    Run manually: pip install " + " ".join(m.split(">=", 1)[0] for m in missing))
+        raise SystemExit(1)
+
+
+_ensure_dependencies()
+
 from core import CoreEngine, Logger, MultiTaskEngine, TaskPriority, Framebuffer, GUIManager, emoji_library, unicode_library, figlet_engine, ansi_colors_engine, animations_engine, gui_widgets_library, EventBus, AlertModule, AlertLevel, AlertChannel, AliasEngine
 from ai import AICore, AIModels, AIAnalyzer, AISentinel, AIPlugins
 from gui import GUIEngine, GUIFrameworks, GUIWidgets, GUIWindows, GUIApps

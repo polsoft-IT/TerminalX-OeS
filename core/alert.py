@@ -26,13 +26,17 @@
 import asyncio
 import json
 import smtplib
-import aiohttp
 import logging
 from datetime import datetime
 from typing import Dict, List, Any, Optional, Callable
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from enum import Enum
+
+try:
+    import aiohttp
+except ImportError:
+    aiohttp = None  # HTTP notifications disabled until 'pip install aiohttp'
 
 
 class AlertLevel(Enum):
@@ -392,17 +396,19 @@ Data:
         
         for attempt in range(self.max_retries):
             try:
+                if aiohttp is None:
+                    raise RuntimeError("aiohttp not installed - SMS alerts unavailable (pip install aiohttp)")
                 async with aiohttp.ClientSession() as session:
                     headers = {
                         "Authorization": f"Bearer {self.sms_config['api_key']}",
                         "Content-Type": "application/json"
                     }
-                    
+
                     sms_data = {
                         "recipient": self.sms_config["recipient"],
                         "message": f"[{payload['level'].upper()}] {payload['title']}: {payload['message'][:100]}"
                     }
-                    
+
                     async with session.post(
                         self.sms_config["provider"],
                         headers=headers,
@@ -415,26 +421,28 @@ Data:
                         else:
                             error_text = await response.text()
                             raise Exception(f"SMS API error: {response.status} - {error_text}")
-                            
+
             except Exception as e:
                 if attempt < self.max_retries - 1:
                     await asyncio.sleep(self.retry_delay)
                 else:
                     self.logger.error(f"SMS alert failed after {self.max_retries} attempts: {e}")
                     return {'success': False, 'error': str(e)}
-        
+
         return {'success': False, 'error': 'Max retries exceeded'}
-    
+
     async def _webhook(self, payload: Dict[str, Any]) -> Dict[str, Any]:
         """Send alert via webhook"""
         if not self._check_rate_limit('webhook'):
             return {'success': False, 'error': 'Rate limit exceeded'}
-        
+
         results = []
-        
+
         for url in self.webhook_urls:
             for attempt in range(self.max_retries):
                 try:
+                    if aiohttp is None:
+                        raise RuntimeError("aiohttp not installed - webhook alerts unavailable (pip install aiohttp)")
                     async with aiohttp.ClientSession() as session:
                         async with session.post(
                             url,

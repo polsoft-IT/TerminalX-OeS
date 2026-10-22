@@ -3,8 +3,12 @@ GeoEngine Providers
 """
 
 import asyncio
-import aiohttp
 from typing import Optional
+
+try:
+    import aiohttp
+except ImportError:
+    aiohttp = None  # HTTP providers disabled until 'pip install aiohttp'
 
 try:
     from geopy.geocoders import Nominatim
@@ -27,6 +31,8 @@ class IPInfoProvider(GeoProvider):
 
     async def is_available(self) -> bool:
         """Check if provider is available"""
+        if aiohttp is None:
+            return False
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(f"{self.base_url}/json", timeout=5) as resp:
@@ -90,6 +96,8 @@ class GeoPyProvider(GeoProvider):
 
     async def is_available(self) -> bool:
         """Check if provider is available"""
+        if aiohttp is None:
+            return False
         try:
             loop = asyncio.get_event_loop()
             await loop.run_in_executor(None, lambda: self.geolocator.geocode("test"))
@@ -141,6 +149,8 @@ class FreeGeoIPProvider(GeoProvider):
 
     async def is_available(self) -> bool:
         """Check if provider is available"""
+        if aiohttp is None:
+            return False
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(f"{self.base_url}/8.8.8.8", timeout=5) as resp:
@@ -188,6 +198,8 @@ class IPAPICOProvider(GeoProvider):
 
     async def is_available(self) -> bool:
         """Check if provider is available"""
+        if aiohttp is None:
+            return False
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(f"{self.base_url}/8.8.8.8", timeout=5) as resp:

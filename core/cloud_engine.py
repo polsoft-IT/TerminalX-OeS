@@ -3,24 +3,31 @@ Cloud Engine - Cloud synchronization and storage
 """
 
 import asyncio
-import aiohttp
 from typing import Dict, Any, Optional
+
+try:
+    import aiohttp
+except ImportError:
+    aiohttp = None  # cloud features disabled until 'pip install aiohttp'
 
 
 class CloudEngine:
     """Cloud engine for synchronization and storage"""
-    
+
     def __init__(self):
         self.enabled = False
         self.config: Dict[str, Any] = {}
-        self.session: Optional[aiohttp.ClientSession] = None
-        
+        self.session = None
+
     async def initialize(self, config: Dict[str, Any] = None):
         """Initialize cloud engine"""
         self.config = config or {}
         self.enabled = self.config.get('enabled', False)
-        
-        if self.enabled:
+
+        if aiohttp is None:
+            self.enabled = False
+            print("[CloudEngine] aiohttp not installed - cloud features disabled. Run: pip install aiohttp")
+        elif self.enabled:
             self.session = aiohttp.ClientSession()
             
     async def sync(self, data: Dict[str, Any]) -> bool:

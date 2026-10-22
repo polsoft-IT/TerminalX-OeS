@@ -17,9 +17,13 @@ Features:
 import math
 import io
 import asyncio
-import aiohttp
 from dataclasses import dataclass
 from typing import List, Dict, Callable, Optional
+
+try:
+    import aiohttp
+except ImportError:
+    aiohttp = None  # map fetching disabled until 'pip install aiohttp'
 from PIL import Image, ImageDraw
 
 

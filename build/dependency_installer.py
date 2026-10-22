@@ -24,7 +24,7 @@
 import asyncio
 import subprocess
 from enum import Enum
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Any
 
 
 class DepType(Enum):
